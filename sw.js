@@ -2,7 +2,7 @@
 // Navigations (the app shell) are network-first so updates actually ship;
 // hashed build assets are cache-first (their names change every build).
 // Offline always falls back to the cache, so the myu is always home.
-const CACHE = "lullabyte-v2";
+const CACHE = "lullabyte-v3"; // 3.0 PLAYTIME (a new name clears the 1.x caches)
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
